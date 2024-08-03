@@ -1,0 +1,287 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Nguyen Thi A",
+      "email": "nguyenthia@gmail.com",
+      "password": "nguyenthia",
+      "token": "bkp9V0yMdBRMw67oqbD7"
+    },
+    {
+      "id": 2,
+      "fullName": "Do Thi B",
+      "email": "dothib@gmail.com",
+      "password": "dothib",
+      "token": "KsZitkpwbPF3fdjBQwh"
+    },
+    {
+      "id": 3,
+      "fullName": "abc",
+      "email": "abc@gmail.com",
+      "password": "abc",
+      "token": "J6jaRqvToQX3qn1x095Z"
+    },
+    {
+      "id": 4,
+      "fullName": "abcd",
+      "email": "abcd@gmail.com",
+      "password": "abcd",
+      "token": "5rTBpYo1KngFskwLqGA8"
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "HTML5"
+    },
+    {
+      "id": 2,
+      "name": "CSS3"
+    },
+    {
+      "id": 3,
+      "name": "JavaScript"
+    },
+    {
+      "id": 4,
+      "name": "ReactJS"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "topicId": 1,
+      "question": "HTML là viết tắt của cái gì?",
+      "answers": [
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyper Text Markup Language"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "topicId": 1,
+      "question": "Thẻ nào được dùng để tạo bảng trong HTML?",
+      "answers": [
+        "<table>",
+        "<div>",
+        "<tab>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "topicId": 1,
+      "question": "Thuộc tính nào được sử dụng để tạo liên kết trong HTML?",
+      "answers": [
+        "link",
+        "href",
+        "src"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "topicId": 1,
+      "question": "Thẻ <canvas> trong HTML5 được sử dụng cho mục đích gì?",
+      "answers": [
+        "Vẽ đồ họa",
+        "Hiển thị video",
+        "Tạo bảng"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "topicId": 1,
+      "question": "Sự kiện nào được kích hoạt khi tài liệu được tải xong?",
+      "answers": [
+        "onload",
+        "oncomplete",
+        "onfinish"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "topicId": 2,
+      "question": "CSS là viết tắt của từ gì?",
+      "answers": [
+        "Colorful Style Sheets",
+        "Cascading Style Sheets",
+        "Computer Style Sheets"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "topicId": 2,
+      "question": "Thuộc tính CSS nào điều khiển cỡ chữ của văn bản?",
+      "answers": [
+        "text-size",
+        "font-size",
+        "text-style"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 13,
+      "topicId": 2,
+      "question": "Trong CSS, thuộc tính nào dùng để thay đổi màu nền?",
+      "answers": [
+        "background-color",
+        "color",
+        "background-style"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "topicId": 2,
+      "question": "Cú pháp đúng để định nghĩa một bộ chọn ID trong CSS là gì?",
+      "answers": [
+        "#id",
+        ".id",
+        "*id"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "topicId": 2,
+      "question": "Thuộc tính nào được sử dụng để thiết lập khoảng cách giữa các chữ trong CSS?",
+      "answers": [
+        "spacing",
+        "letter-spacing",
+        "text-spacing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 21,
+      "topicId": 3,
+      "question": "Cách nào để khai báo một biến có phạm vi block trong JavaScript?",
+      "answers": [
+        "var",
+        "let",
+        "const"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 22,
+      "topicId": 3,
+      "question": "Cú pháp nào để tạo một hàm trong JavaScript?",
+      "answers": [
+        "function myFunc() {}",
+        "var myFunc = function() {}",
+        "Both A and B"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 23,
+      "topicId": 3,
+      "question": "Phương thức nào được dùng để chuyển đổi JSON thành một đối tượng JavaScript?",
+      "answers": [
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.toObject()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "topicId": 3,
+      "question": "Lệnh nào dùng để ghi thông tin ra console để debug?",
+      "answers": [
+        "console.write()",
+        "console.log()",
+        "console.output()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 25,
+      "topicId": 3,
+      "question": "Event 'click' trong JavaScript được sử dụng để làm gì?",
+      "answers": [
+        "Phát hiện sự kiện nhập liệu",
+        "Phát hiện sự kiện nhấp chuột",
+        "Phát hiện thay đổi trên trang web"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 31,
+      "topicId": 4,
+      "question": "Điều nào sau đây là đúng về ReactJS?",
+      "answers": [
+        "React là một framework JavaScript",
+        "React là một thư viện JavaScript cho việc xây dựng giao diện người dùng",
+        "ReactJS chỉ dùng cho việc phát triển ứng dụng web"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 32,
+      "topicId": 4,
+      "question": "Hook nào trong React cho phép bạn sử dụng state trong functional components?",
+      "answers": [
+        "useState",
+        "useEffect",
+        "useContext"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "answers": [
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 2
+        },
+        {
+          "questionId": 2,
+          "answer": 0
+        },
+        {
+          "questionId": 3,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 0
+        },
+        {
+          "questionId": 5,
+          "answer": 0
+        },
+        {
+          "questionId": 6,
+          "answer": 0
+        },
+        {
+          "questionId": 7,
+          "answer": 0
+        },
+        {
+          "questionId": 8,
+          "answer": 0
+        },
+        {
+          "questionId": 9,
+          "answer": 0
+        },
+        {
+          "questionId": 10,
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}
