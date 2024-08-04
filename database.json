@@ -491,6 +491,7 @@
   ],
   "answers": [
     {
+      "id": 1,
       "userId": 1,
       "topicId": 1,
       "answers": [
@@ -532,6 +533,53 @@
         },
         {
           "questionId": 10,
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "userId": "4",
+      "topicId": "3",
+      "answers": [
+        {
+          "questionId": 21,
+          "answer": 0
+        },
+        {
+          "questionId": 22,
+          "answer": 2
+        },
+        {
+          "questionId": 23,
+          "answer": 0
+        },
+        {
+          "questionId": 24,
+          "answer": 1
+        },
+        {
+          "questionId": 25,
+          "answer": 1
+        },
+        {
+          "questionId": 26,
+          "answer": 0
+        },
+        {
+          "questionId": 27,
+          "answer": 1
+        },
+        {
+          "questionId": 28,
+          "answer": 0
+        },
+        {
+          "questionId": 29,
+          "answer": 0
+        },
+        {
+          "questionId": 30,
           "answer": 0
         }
       ]

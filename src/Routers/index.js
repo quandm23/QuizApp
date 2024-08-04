@@ -5,6 +5,7 @@ import Topic from "./../Pages/Topic";
 import LayOut from "../Components/LayOut";
 import Logout from "../Pages/Logout";
 import Quiz from "./../Pages/Quiz"
+import Result from "../Pages/Result";
 
 
 export const Routers = [
@@ -35,6 +36,10 @@ export const Routers = [
            {
             path : "quiz/:id",
             element : <Quiz/>
+           },
+           {
+            path : "result/:id",
+            element : <Result/>
            }
         
         ]
