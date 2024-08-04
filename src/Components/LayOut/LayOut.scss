@@ -1,4 +1,11 @@
-
+button{
+    padding: 10px 20px;
+    background-color: orange;
+    border: 1px solid orange;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+}
 .header{
     background-color: orange;
     display: flex;
@@ -42,6 +49,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px;
 }
 .login{
     border: 1px solid orange;
@@ -79,4 +87,34 @@ footer{
 
 .center{
     margin-left: 110px;
+}
+
+table,td,tr{
+    border: 1px solid #dddd;
+}
+td{
+    padding: 10px 20px;
+
+    button{
+        border:  1px solid orange;
+        background-color:  orange;
+        padding: 10px;
+        border-radius: 10px;
+        
+        a{
+            color: white;
+        }
+    }
+}
+.back{
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: black;
+}
+h1{
+    text-align:  center;
+}
+span{
+    color: red;
 }

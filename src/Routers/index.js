@@ -1,8 +1,10 @@
 import Home from "./../Pages/Home";
 import Login from "./../Pages/Login";
 import Register from "./../Pages/Register";
+import Topic from "./../Pages/Topic";
 import LayOut from "../Components/LayOut";
 import Logout from "../Pages/Logout";
+import Quiz from "./../Pages/Quiz"
 
 
 export const Routers = [
@@ -25,7 +27,16 @@ export const Routers = [
            {
             path : "logout",
             element : <Logout/>
+           },
+           {
+            path : "topic",
+            element : <Topic/>
+           },
+           {
+            path : "quiz/:id",
+            element : <Quiz/>
            }
+        
         ]
     }
 ];

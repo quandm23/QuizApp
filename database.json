@@ -104,6 +104,61 @@
       "correctAnswer": 0
     },
     {
+      "id": 6,
+      "topicId": 1,
+      "question": "Thẻ nào được sử dụng để chèn một dòng kẻ ngang?",
+      "answers": [
+        "<line>",
+        "<hr>",
+        "<break>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "topicId": 1,
+      "question": "Thẻ nào dùng để nhúng video trong HTML5?",
+      "answers": [
+        "<movie>",
+        "<video>",
+        "<film>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "topicId": 1,
+      "question": "Thuộc tính nào được sử dụng để chỉ định một đường dẫn hình ảnh thay thế khi hình ảnh không tải được?",
+      "answers": [
+        "title",
+        "alt",
+        "src"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "topicId": 1,
+      "question": "Thẻ nào dùng để tạo một danh sách không có thứ tự trong HTML?",
+      "answers": [
+        "<ul>",
+        "<ol>",
+        "<list>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "topicId": 1,
+      "question": "Thẻ <header> thường được dùng để chứa thông tin gì?",
+      "answers": [
+        "Chứa tiêu đề của trang",
+        "Chứa nội dung chính của trang",
+        "Chứa chân trang của trang"
+      ],
+      "correctAnswer": 0
+    },
+    {
       "id": 11,
       "topicId": 2,
       "question": "CSS là viết tắt của từ gì?",
@@ -159,6 +214,61 @@
       "correctAnswer": 1
     },
     {
+      "id": 16,
+      "topicId": 2,
+      "question": "Trong CSS, làm cách nào để ẩn một phần tử?",
+      "answers": [
+        "display: none;",
+        "visibility: hidden;",
+        "Cả hai câu trên đều đúng"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 17,
+      "topicId": 2,
+      "question": "Thuộc tính nào được sử dụng để căn giữa văn bản?",
+      "answers": [
+        "align: center;",
+        "text-align: center;",
+        "text-center: true;"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 18,
+      "topicId": 2,
+      "question": "Cách nào để chọn tất cả các phần tử <p> trong một tài liệu HTML với CSS?",
+      "answers": [
+        "p {}",
+        "#p {}",
+        ".p {}"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "topicId": 2,
+      "question": "Thuộc tính nào được dùng để tạo ra đường viền xung quanh một phần tử?",
+      "answers": [
+        "border",
+        "outline",
+        "frame"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "topicId": 2,
+      "question": "Giá trị nào của thuộc tính position sẽ khiến một phần tử đứng yên khi cuộn trang?",
+      "answers": [
+        "absolute",
+        "fixed",
+        "static"
+      ],
+      "correctAnswer": 1
+    },
+    {
       "id": 21,
       "topicId": 3,
       "question": "Cách nào để khai báo một biến có phạm vi block trong JavaScript?",
@@ -176,7 +286,7 @@
       "answers": [
         "function myFunc() {}",
         "var myFunc = function() {}",
-        "Both A and B"
+        "Cả hai câu trên đều đúng"
       ],
       "correctAnswer": 2
     },
@@ -214,6 +324,61 @@
       "correctAnswer": 1
     },
     {
+      "id": 26,
+      "topicId": 3,
+      "question": "Phương thức nào được sử dụng để thêm một phần tử vào cuối mảng trong JavaScript?",
+      "answers": [
+        "push()",
+        "add()",
+        "insert()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "topicId": 3,
+      "question": "Từ khóa nào được sử dụng để tạo một đối tượng trong JavaScript?",
+      "answers": [
+        "class",
+        "new",
+        "create"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 28,
+      "topicId": 3,
+      "question": "Lệnh nào được sử dụng để kiểm tra kiểu dữ liệu của một biến trong JavaScript?",
+      "answers": [
+        "typeof",
+        "getType",
+        "varType"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "topicId": 3,
+      "question": "Phương thức nào được sử dụng để kết hợp hai hoặc nhiều mảng trong JavaScript?",
+      "answers": [
+        "concat()",
+        "combine()",
+        "merge()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "topicId": 3,
+      "question": "Cách nào để kiểm tra nếu một biến không xác định trong JavaScript?",
+      "answers": [
+        "if (x === undefined)",
+        "if (x == null)",
+        "if (typeof x === 'undefined')"
+      ],
+      "correctAnswer": 2
+    },
+    {
       "id": 31,
       "topicId": 4,
       "question": "Điều nào sau đây là đúng về ReactJS?",
@@ -232,6 +397,94 @@
         "useState",
         "useEffect",
         "useContext"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "topicId": 4,
+      "question": "Cú pháp nào sau đây để nhập React vào dự án?",
+      "answers": [
+        "import * from 'react';",
+        "import React from 'react';",
+        "import {React} from 'react';"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 34,
+      "topicId": 4,
+      "question": "Phương thức nào trong React được gọi khi một component được thêm vào DOM?",
+      "answers": [
+        "componentDidMount",
+        "componentWillMount",
+        "componentDidUpdate"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "topicId": 4,
+      "question": "Trong React, cách nào để truyền dữ liệu từ component cha đến component con?",
+      "answers": [
+        "Bằng cách sử dụng props",
+        "Bằng cách sử dụng state",
+        "Bằng cách sử dụng refs"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "topicId": 4,
+      "question": "Làm cách nào để cập nhật state trong một component của React?",
+      "answers": [
+        "Trực tiếp thay đổi state",
+        "Sử dụng phương thức setState()",
+        "Sử dụng phương thức updateState()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 37,
+      "topicId": 4,
+      "question": "Cách nào để lặp qua một danh sách và hiển thị các mục trong React?",
+      "answers": [
+        "Sử dụng vòng lặp for",
+        "Sử dụng phương thức map()",
+        "Sử dụng phương thức each()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 38,
+      "topicId": 4,
+      "question": "Phương thức nào được sử dụng để gỡ bỏ component khỏi DOM trong React?",
+      "answers": [
+        "componentDidUnmount",
+        "componentWillUnmount",
+        "componentRemove"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 39,
+      "topicId": 4,
+      "question": "Thuộc tính nào được sử dụng để chỉ định các thành phần trong JSX?",
+      "answers": [
+        "key",
+        "id",
+        "name"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "topicId": 4,
+      "question": "Cách nào để quản lý side effects trong một component của React?",
+      "answers": [
+        "Sử dụng useEffect hook",
+        "Sử dụng useState hook",
+        "Sử dụng componentDidUpdate method"
       ],
       "correctAnswer": 0
     }

@@ -20,7 +20,7 @@ function Login() {
         console.log(result[0].fullName);
         console.log(result[0].token);
         dispatch(checkLogin(true));
-        navigate("/login");
+        navigate("/");
       } else {
         alert("Email or Passwordnot correct");
       }
